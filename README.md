@@ -215,7 +215,6 @@ After the Streamlit server starts, open the local address displayed in the termi
 ---
 
 ## Model Files
-
 The trained regression and classification models are not stored in this repository because both exceed GitHub's standard **100 MB per-file limit**.
 
 | Model File | Purpose |
@@ -228,7 +227,6 @@ These files are excluded from Git tracking through `.gitignore`.
 > **Important:** The complete prediction application requires both model files to be available locally in the project root directory.
 
 ---
-
 ## Running the Prediction System
 
 After launching the application:
@@ -241,28 +239,12 @@ After launching the application:
 6. View the estimated adviews and predicted performance segment
 
 ---
-
 ## Current Limitations
 
 - The trained model files are not included directly in the repository because of GitHub file-size restrictions
 - Prediction quality depends on the dataset and feature patterns used during model training
 - The current application expects the same feature schema used during training
 - Serialized scikit-learn models should be loaded with a compatible library version
-
----
-
-## Future Improvements
-
-Future development can include:
-
-- Optimize model size for easier deployment
-- Add a reproducible `requirements.txt`
-- Deploy the Streamlit application online
-- Add model evaluation metrics and comparison charts
-- Compare Random Forest with additional machine learning algorithms
-- Add explainable AI techniques for prediction interpretation
-- Improve model versioning and deployment workflow
-- Add automated testing for preprocessing and prediction functions
 
 ---
 
