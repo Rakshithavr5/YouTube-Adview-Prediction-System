@@ -57,21 +57,6 @@ The regression component estimates advertisement views based on the processed vi
 
 **Output:** Estimated advertisement views
 
-### Performance Classification
-
-The classification component assigns the video to an expected performance segment.
-
-**Model used:** Random Forest Classifier
-
-**Output categories:**
-
-- Low Performance
-- Average Performance
-- High Performance
-- Viral Performance
-
----
-
 ## Input Features
 
 The application collects the following information from the user:
@@ -237,14 +222,6 @@ After launching the application:
 4. Provide duration and publishing information
 5. Click **Generate Prediction**
 6. View the estimated adviews and predicted performance segment
-
----
-## Current Limitations
-
-- The trained model files are not included directly in the repository because of GitHub file-size restrictions
-- Prediction quality depends on the dataset and feature patterns used during model training
-- The current application expects the same feature schema used during training
-- Serialized scikit-learn models should be loaded with a compatible library version
 
 ---
 
