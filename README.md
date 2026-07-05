@@ -47,41 +47,6 @@ Main sections include:
 
 ---
 
-## Machine Learning Tasks
-
-### Adview Prediction
-
-The regression component estimates advertisement views based on the processed video features.
-
-**Model used:** Random Forest Regressor
-
-**Output:** Estimated advertisement views
-
-## Input Features
-
-The application collects the following information from the user:
-
-| Feature | Description |
-|---|---|
-| Category | YouTube video category |
-| Views | Total number of video views |
-| Likes | Total number of likes |
-| Dislikes | Total number of dislikes |
-| Comments | Total number of comments |
-| Duration | Video duration in seconds |
-| Published Year | Year in which the video was published |
-| Published Month | Month in which the video was published |
-
-The application then calculates additional derived features:
-
-| Derived Feature | Description |
-|---|---|
-| Engagement | Combined likes and comments |
-| Like Rate | Likes relative to total views |
-| Comment Rate | Comments relative to total views |
-| Dislike Rate | Dislikes relative to total views |
-
-
 
 ## Technology Stack
 
