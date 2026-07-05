@@ -81,40 +81,7 @@ The application then calculates additional derived features:
 | Comment Rate | Comments relative to total views |
 | Dislike Rate | Dislikes relative to total views |
 
-This results in **12 predictive features** used by the application pipeline.
 
----
-
-## Prediction Workflow
-
-```text
-User Input
-    │
-    ▼
-Input Validation
-    │
-    ▼
-Category Encoding
-    │
-    ▼
-Feature Engineering
-    │
-    ▼
-Feature Alignment
-    │
-    ├─────────────────────┐
-    ▼                     ▼
-Regression Model     Classification Model
-    │                     │
-    ▼                     ▼
-Predicted Adviews    Performance Segment
-    │                     │
-    └──────────┬──────────┘
-               ▼
-        Streamlit Results
-```
-
----
 
 ## Technology Stack
 
