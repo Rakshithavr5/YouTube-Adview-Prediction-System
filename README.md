@@ -1,4 +1,4 @@
-# YouTube Adview Prediction System
+# 📊 YouTube Adview Prediction System
 
 A machine learning project that analyzes YouTube video engagement data to estimate advertisement views and classify expected video performance.
 
@@ -6,7 +6,7 @@ The project includes the complete workflow from data preprocessing and feature e
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
 YouTube video performance is influenced by multiple factors such as views, likes, dislikes, comments, duration, category, and publishing information. Analyzing these factors manually can be difficult when working with large datasets.
 
@@ -19,7 +19,7 @@ The project demonstrates how a trained machine learning pipeline can be integrat
 
 ---
 
-## Application Preview
+## 🖥️ Application Preview
 
 The Streamlit application is presented under the name **AdVision AI** and provides a structured interface for prediction and model exploration.
 
@@ -33,7 +33,7 @@ Main sections include:
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 - Predicts estimated YouTube advertisement views
 - Classifies expected video performance
@@ -47,23 +47,22 @@ Main sections include:
 
 ---
 
-## Machine Learning Tasks
+## 🤖 Machine Learning Tasks
 
-### Adview Prediction
+### 📈 Adview Prediction
 
 The regression component estimates advertisement views based on the processed video features.
 
-**Model used:** Random Forest Regressor
-
+**Model Used:** Random Forest Regressor  
 **Output:** Estimated advertisement views
 
-### Performance Classification
+### 🎯 Performance Classification
 
 The classification component assigns the video to an expected performance segment.
 
-**Model used:** Random Forest Classifier
+**Model Used:** Random Forest Classifier
 
-**Output categories:**
+**Output Categories:**
 
 - Low Performance
 - Average Performance
@@ -72,7 +71,7 @@ The classification component assigns the video to an expected performance segmen
 
 ---
 
-## Input Features
+## 📥 Input Features
 
 The application collects the following information from the user:
 
@@ -100,7 +99,7 @@ This results in **12 predictive features** used by the application pipeline.
 
 ---
 
-## Prediction Workflow
+## 🔄 Prediction Workflow
 
 ```text
 User Input
@@ -131,7 +130,7 @@ Predicted Adviews    Performance Segment
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 | Area | Technologies |
 |---|---|
@@ -147,7 +146,7 @@ Predicted Adviews    Performance Segment
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 YouTube-Adview-Prediction-System/
@@ -173,7 +172,7 @@ YouTube-Adview-Prediction-System/
 
 ---
 
-## Installation and Setup
+## ⚙️ Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -214,7 +213,7 @@ After the Streamlit server starts, open the local address displayed in the termi
 
 ---
 
-## Model Files
+## 🧠 Model Files
 
 The trained regression and classification models are not stored in this repository because both exceed GitHub's standard **100 MB per-file limit**.
 
@@ -225,11 +224,11 @@ The trained regression and classification models are not stored in this reposito
 
 These files are excluded from Git tracking through `.gitignore`.
 
-> **Important:** The complete prediction application requires both model files to be available locally in the project root directory.
+> ⚠️ **Important:** The complete prediction application requires both model files to be available locally in the project root directory.
 
 ---
 
-## Running the Prediction System
+## ▶️ Running the Prediction System
 
 After launching the application:
 
@@ -242,7 +241,7 @@ After launching the application:
 
 ---
 
-## Current Limitations
+## ⚠️ Current Limitations
 
 - The trained model files are not included directly in the repository because of GitHub file-size restrictions
 - Prediction quality depends on the dataset and feature patterns used during model training
@@ -251,7 +250,7 @@ After launching the application:
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 Future development can include:
 
@@ -266,7 +265,7 @@ Future development can include:
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Rakshitha V R**
 
@@ -275,8 +274,6 @@ Interested in Software Development, Machine Learning, and Data-Driven Applicatio
 
 ---
 
-## Repository
+## ⭐ Support
 
-Project source code and development files are maintained in this repository.
-
-If you find the project useful, consider giving it a star.
+If you find this project useful, consider giving the repository a **star**.
